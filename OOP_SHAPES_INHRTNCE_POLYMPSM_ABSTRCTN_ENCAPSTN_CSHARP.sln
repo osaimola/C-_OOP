@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_SHAPES_INHRTNCE_POLYMPSM_ABSTRCTN_ENCAPSTN_CSHARP", "OOP_SHAPES_INHRTNCE_POLYMPSM_ABSTRCTN_ENCAPSTN_CSHARP\OOP_SHAPES_INHRTNCE_POLYMPSM_ABSTRCTN_ENCAPSTN_CSHARP.csproj", "{B3B5CAFF-599F-486C-9543-164FA490EB33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B5CAFF-599F-486C-9543-164FA490EB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B5CAFF-599F-486C-9543-164FA490EB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B5CAFF-599F-486C-9543-164FA490EB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B5CAFF-599F-486C-9543-164FA490EB33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1106BB95-9C2A-46A8-AA90-BFD38D5488B8}
+	EndGlobalSection
+EndGlobal
