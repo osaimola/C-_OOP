@@ -39,6 +39,9 @@ namespace OOP_SHAPES_INHRTNCE_POLYMPSM_ABSTRCTN_ENCAPSTN_CSHARP
             Console.WriteLine("\n\nAdding 3 more drawings...");
             Console.WriteLine(myDrawing);
 
+            Drawing emptyDrawing = new Drawing();
+            Console.WriteLine(emptyDrawing);
+
         }
     }
 }

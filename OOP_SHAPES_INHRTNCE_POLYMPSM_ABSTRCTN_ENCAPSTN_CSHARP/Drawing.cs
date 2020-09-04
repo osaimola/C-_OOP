@@ -29,6 +29,11 @@ namespace OOP_SHAPES_INHRTNCE_POLYMPSM_ABSTRCTN_ENCAPSTN_CSHARP
 
         private List<Shape> Shapes { get; set; }
 
+        public Drawing()
+        {
+            Shapes = new List<Shape> { };
+        }
+
         public Drawing(List<Shape> shapes)
         {
             Shapes = shapes;
@@ -44,7 +49,11 @@ namespace OOP_SHAPES_INHRTNCE_POLYMPSM_ABSTRCTN_ENCAPSTN_CSHARP
             double redArea = Shapes.Where(x => x.Color == Color.Red).Select(x => x.Area).Sum();
             double blueArea = Shapes.Where(x => x.Color == Color.Blue).Select(x => x.Area).Sum();
             double greenArea = Shapes.Where(x => x.Color == Color.Green).Select(x => x.Area).Sum();
-            return $"A drawing consisting of {Shapes.ToArray().Length} Shapes. It is {redArea/SpaceCovered*100:F2}% red, {blueArea / SpaceCovered * 100:F2}% blue, and {greenArea / SpaceCovered * 100:F2}% green";
+
+            double redPercent = redArea > 0 ? redArea / SpaceCovered * 100 : 0;
+            double bluePercent = blueArea > 0 ? blueArea / SpaceCovered * 100 : 0;
+            double greenPercent = greenArea > 0 ? greenArea / SpaceCovered * 100  : 0;
+            return $"A drawing consisting of {Shapes.ToArray().Length} Shapes. It is {redPercent:F2}% red, {bluePercent:F2}% blue, and {greenPercent:F2}% green";
         }
     }
 }
